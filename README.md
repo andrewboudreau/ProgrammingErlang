@@ -5,6 +5,7 @@ Journal for working through [Programming Erlang by Joe Armstrong](https://pragpr
 In an attempt better develop my personal understanding, I will try implement some of the newer C# 9.0 features, such as pattern matching into these examples where I see fit. The goal is not to force any language paradigm mismatches (erlang/csharp), but to explore some of the fundamentals concepts behind the new C# 9 features and better understand their usage scenarios.
 
 In example, here is the pattern matching scenario described on pg 35.
+*Erlang*
 ```erlang
 -module(geometry).
 -export([area/1]).
@@ -13,6 +14,7 @@ area({circle, R})                -> 3.14159 * R * R;
 area({square, Side})             -> Side * Side.
 ```
 
+*C#*
 ```csharp
 Console.WriteLine(Area(new Square(3)));
 Console.WriteLine(Area(new Rectangle(3,4)));
