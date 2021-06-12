@@ -7,7 +7,7 @@ Console.WriteLine(Area(new Circle(2)));
 static double Area(Shape shape) => 
     shape switch {
         Square s => s.Side * s.Side,
-        Circle c => c.Radius * 3.14159,
+        Circle c => c.Radius * c.Radius * 3.14159,
         Rectangle r => r.Width * r.Height,
         _ => throw new NotSupportedException($"{nameof(shape)} is not a supported shape for Area().")
     };

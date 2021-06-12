@@ -1,10 +1,12 @@
 # Programming Erlang
-Journal for working through [Programming Erlang by Joe Armstrong](https://pragprog.com/titles/jaerlang2/programming-erlang-2nd-edition/). I guess I ended up with the first edition but it was only $6. The goal here is to learn some of the larger concepts of Erlang and functional programming in general.
+Journal for working through [Programming Erlang by Joe Armstrong](https://pragprog.com/titles/jaerlang2/programming-erlang-2nd-edition/). I ended up with the first edition, but it was only $6. My goal is to continue to learn Erlang and functional programming in general.
 
 # CSharp 9 variants
 In an attempt better develop my personal understanding, I will try implement some of the newer C# 9.0 features, such as pattern matching into these examples where I see fit. The goal is not to force any language paradigm mismatches (erlang/csharp), but to explore some of the fundamentals concepts behind the new C# 9 features and better understand their usage scenarios.
 
+## Pattern Matching
 In example, here is the pattern matching scenario described on pg 35.
+
 *Erlang*
 ```erlang
 -module(geometry).
