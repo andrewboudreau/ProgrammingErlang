@@ -3,7 +3,7 @@
 
 %% max(N)
 %% Create N Processes then destroy them
-%% See how muct time this takes
+%% See how much time this takes
 
 max(N) ->
     Max = erlang:system_info(process_limit),
@@ -25,3 +25,8 @@ wait() ->
 
 for(N,N,F) -> [F()];
 for(I,N,F) -> [F()| for(I+1, N, F)].
+
+% Run erl
+%% c(processes).
+% processes:max(20000).
+%
